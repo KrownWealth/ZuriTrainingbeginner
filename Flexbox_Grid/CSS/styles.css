@@ -1,0 +1,175 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+* {
+    box-sizing: border-box;
+  }
+  
+  :root
+  {
+    --trans-white : hsla(0, 0%, 100%, 0.75);
+    --very-light : hsl(0, 0%, 95%);
+  }
+
+  body
+  {
+    font-size: 15px;
+    font-family: 'Lexend Deca' Big Shoulder Display;
+    background-color: black;
+  }
+
+  main
+  {
+    background-color: white;
+    width: 80%;
+    margin:0 auto;
+    padding: 40px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    
+  }
+  /* Create three equal columns that floats next to each other */
+  .column1 {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    background: var(--bright-orange);
+    border-radius: 2px;
+    color: var(--trans-white);
+    
+  }
+  
+  .column1 h2
+  {
+    color: white;
+  }
+   
+  .column2 h2
+  {
+    color: white;
+  }
+   
+  .column3 h2
+  {
+    color: white;
+  }
+
+   
+  .column1 p
+  {
+    color: var(--trans-white);
+  }
+
+   
+  .column2 p
+  {
+    color: var(--trans-white);
+  }
+
+   
+  .column3 p
+  {
+    color: var(--trans-white);
+  }
+
+  .column2 {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    background: var(--dark-cyan);
+    border-radius: 2px;
+    
+    
+  }
+
+  .column3 {
+    float: left;
+    width: 33.33%;
+    padding: 40px;
+    background: var(--very-dark-cyan);
+    border-radius: 2px;
+    color: var(--trans-white);
+    
+  }
+  
+  /* Clear floats after the columns */
+  .row:after {
+    content: "";
+    display: flex;
+    clear: both;
+  }
+
+  .column-img img 
+  {
+    width: 50px;
+  }
+
+  .btn1,.btn2,.btn3
+  {
+    border: 50px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: white;
+    padding: 10px;
+    align-items: center;
+    
+  }
+
+  .btn1:active
+  {
+    border: 50px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--bright-orange);
+    padding: 10px;
+    align-items: center;
+    
+  }
+  
+  .btn2:active
+  {
+    border: 50px;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--dark-cyan);
+    padding: 10px;
+    align-items: center;
+    
+  }
+  
+  .btn3:active
+  {
+    border: 50px solid white ;
+    border-radius: 50px;
+    text-align: center;
+    cursor: pointer;
+    background-color: var(--very-dark-cyan);
+    padding: 10px;
+    align-items: center;
+    
+  }
+
+  
+  .btn1,.btn2,btn3:active
+  {
+    color: var(--very-light);
+  }
+  
+  .btn1
+  {
+    color: var(--bright-orange);
+  }
+  
+  .btn2
+  {
+    color: var(--dark-cyan);
+  }
+  .btn3
+  {
+    color: var(--very-dark-cyan);
+  }
+  
+
