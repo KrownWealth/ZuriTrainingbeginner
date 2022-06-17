@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&family=Poppins:wght@400;500;600;700&display=swap');
+
+*
+{
+    box-sizing: border-box;
+}
+
+body
+{
+    font-size: 16px;
+    font-family: 'Poppins' sans-serif;
+    background-color: black;
+}
+
+main
+{
+  
+    
+    margin: 0 auto;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    opacity: 1;
+    background: linear-gradient(to right,hsl(0, 100%, 74%),hsl(0, 100%, 74%));
+}
+
+.column1 {
+    flex: 0 0 40%;
+    max-width: 40%;
+    margin-left: 50px;
+    padding: 70px;
+}
+.column2
+{
+    flex: 0 0 60%;
+    max-width: 60%;
+    padding: 70px;
+    margin-left: -50px;
+   
+}
+  
+  /* Clear floats after the columns */
+  .row {
+    content: "";
+    display: flex;
+    max-width: 0 0 100%;
+    flex-wrap: wrap;
+    
+    
+
+  }
