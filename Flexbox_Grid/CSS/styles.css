@@ -172,4 +172,13 @@
     color: var(--very-dark-cyan);
   }
   
+/* Media queries*/
+
+@media screen and (max-width: 375px)
+{
+  .column1, .column2, .column3{width: 100%}
+
+}
+
+  
 
