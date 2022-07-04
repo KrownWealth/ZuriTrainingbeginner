@@ -44,7 +44,9 @@ body
 ul {
     list-style: none;
 }
-
+p{
+    font-size: 25px;
+}
 /* all the content were placed inside this div container */
   .container{
     display: block;
@@ -54,13 +56,7 @@ ul {
   }
 
   /*one section title for all*/
-  .section-title
-  {
-    color: var(--Dark-Cyan);
-    font-size: 25px;
-    font-weight: 700;
-   
-  }
+  
   
 .row 
 {
@@ -79,40 +75,47 @@ ul {
     background-size: cover;
     min-height: 100vh;
     width: 100%;
+    display: flex;
+    flex-wrap: wrap;
     margin: 20px;
     display: block;
+    padding-top: 40px;
+    padding: 60px;
 }
 
 .column-1 {
-    flex: 0 0 40%;
-    max-width: 40%;
+    flex: 0 0 45%;
+    max-width: 45%;
     text-align: start;
     color: var(--Dark-Cyan);
     float: left;
     margin: 20px;
+    padding-left: 20px;
      
 }
 
 .column-2
 {
-    flex: 0 0 60%;
-    max-width: 60%;
+    flex: 0 0 55%;
+    max-width: 55%;
     text-align: start;
     float: left;
-    margin: 10px;
+    margin: 20px;
+    padding-left: 40px;
 }
 
 .column-1 .section-title
 {
-    margin-top: 150px;
+    margin-top: 100px;
     
 }
 
 .section-title h3
 {
-   font-size: 28px;
+   font-size: 35px;
    text-align: start;
    margin-bottom: 10px;
+   color: var(--Dark-Cyan);
 }
 
 
@@ -121,7 +124,10 @@ ul {
     font-size: 18px;
     text-align: justify;
 }
-
+.header-logo
+{
+    margin-top: 20px;
+}
 .longBar-1
 {
     background: var(--Pink-color);
@@ -141,12 +147,12 @@ ul {
     padding: 15px;
     color: var(--Dark-Cyan);
     text-align: center;
-    margin-top: 20px;
+   width: 200px;
     border: none;
     border-radius: 50px;
     font-size: 18px;
-    margin-left: 350px;
-    margin-bottom: 20px;
+    margin-left: 250px;
+    margin-bottom: 40px;
    
 }
 
@@ -166,7 +172,7 @@ ul {
     width: 80%;
     margin: 0 auto;
     display: block;
-    border: 2px solid var(--bg-black-100);
+    box-shadow: 2px 2px 2px 5px var(--bg-black-50);
     border-radius: 5px;
     margin-top: 50px;
     margin-bottom: 50px;
@@ -181,8 +187,9 @@ ul {
     text-align: start;
     color: var(--Grayish-Blue);
     float: left;
-    margin-left: 30px;
-    margin-top: 50px;
+    padding-left: 50px;
+    padding-top: 100px;
+    font-size: 20px;
     
 }
 
@@ -194,8 +201,9 @@ ul {
     max-width: 55%;
     color: var(--Grayish-Blue);
     float: right;
-    margin-right: 30px;
-    margin-top: 50px;
+    padding-right: 50px;
+    padding-top: 100px;
+    font-size: 20px;
 
   
    
@@ -207,6 +215,7 @@ ul {
     max-width: 25%;
     float: left;
     margin-left: 20px;
+    margin-top: 50px;
  
 }
 
@@ -216,6 +225,7 @@ ul {
     max-width: 25%;
     float: left;
     margin-left: 20px;
+    margin-top: 50px;
    
 }
 
@@ -260,7 +270,7 @@ ul {
 
 .build-content .section-title h3
 {
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
 }
 
@@ -287,7 +297,8 @@ ul {
     width: 100%;
     margin: 0 auto;
     display: block;
-   padding-top: 70px;
+    padding-top: 70px;
+    padding: 60px;
     
     
 }
@@ -295,33 +306,42 @@ ul {
 
 .footer-content
 {
-    flex: 0 0 21.6%;
-    max-width: 21.6%;
+    flex: 0 0 20%;
+    max-width: 20%;
     text-align: start;
     color: white;
     float: left;
-    padding: 20px;
-    margin: 10px;
-    margin-top: 110px;
+    padding: 50px;
+    margin-top: 50px;
+    font-size: 25px;
+  
      
+}
+
+.footer-content ul
+{
+    padding-top: 100px;
+    
 }
 
 
 .footer-content-1
 {
-    flex: 0 0 35%;
-    max-width: 35%;
+    flex: 0 0 40%;
+    max-width: 40%;
     text-align: start;
     color: white;
     float: left;
     padding: 50px;
-    margin: 10px;
+    margin: 50px;
+    font-size: 25px;
+
 }
 
 
 .footer-content-1 ul
 {
-    padding-top: 20px;
+    padding-top: 60px;
     
 }
 
@@ -352,6 +372,181 @@ ul {
 .footer-content p
 {
     margin-top: 60px;
-    font-size: 12px;
+    font-size: 15px;
 }
 
+@media screen and (max-width:1440px)
+{
+    .top_section
+{
+    width: 100%;
+    min-height: 80vh;
+}
+
+}
+
+@media screen and (max-width:1024px)
+{ 
+
+.column-1 {
+    flex: 0 0 35%;
+    max-width: 35%;
+    text-align: start;
+    color: var(--Dark-Cyan);
+    float: left;
+    margin: 20px;
+    padding-left: 20px;
+     
+}
+
+.column-2
+{
+    flex: 0 0 45%;
+    max-width: 45%;
+    text-align: start;
+    float: left;
+    margin: 20px;
+    padding-left: 40px;
+}
+
+.column-2 .community-img img 
+{
+
+    width: 450px; 
+    height:auto
+}
+
+
+}
+
+@media screen and (max-width:375px)
+{
+    p 
+    {
+        font-size: 15px;
+    }
+    .top_section
+    {
+        background-image: url(../Images/bg-hero-mobile.svg);
+        background-size: cover;
+        width: 100%;
+        display: flex;
+        flex-wrap: wrap;
+        min-height: 80vh;
+        padding: 50px;
+    }
+    
+    .column-1
+    
+    {
+        flex: 0 0 100%;
+        max-width: 100%;
+        margin: 0 auto;
+        padding: auto;
+        float: left;
+         
+    }
+
+    .column-2
+{
+    display: none;
+}
+
+
+.together_section
+{
+    background-color: white;
+    min-height: 60vh;
+    width: 100%;
+    padding: 50px;
+}
+
+
+.together-content
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    text-align: start;
+   
+    font-size: 20px;
+    
+}
+
+
+
+.together-content-2
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+  
+   
+    padding-top: 100px;
+    font-size: 20px;
+
+  
+   
+}
+
+.together-img-2
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+ 
+}
+
+.together-img
+{
+    flex: 0 0 100%;
+    max-width: 100%;
+    float: left;
+    margin-left: 20px;
+    margin-top: 50px;
+   
+}
+
+.footer_section
+{
+    min-height: 150vh;
+}
+
+.footer-content
+{
+    flex: 0 0 15%;
+    max-width: 15%;
+    text-align: start;
+    color: white;
+    float: left;
+    padding: 20px;
+    margin-top: 50px;
+    font-size: 16px;
+  
+     
+}
+
+
+
+.footer-content-1
+{
+    flex: 0 0 30%;
+    max-width: 30%;
+    text-align: start;
+    color: white;
+    float: left;
+    padding: 20px;
+    margin: 20px;
+    font-size: 16px;
+
+}
+
+
+.footer-content-1 ul li i
+{
+   margin-right: 10px;
+}
+
+
+}
+ 
